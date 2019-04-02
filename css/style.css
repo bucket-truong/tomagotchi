@@ -13,7 +13,8 @@
   left: : 0%;
   right: 0%;
   margin: 37px 10px;
-  margin-left: 50px;
+
+
 }
 body {
   background-image: url("https://cdn1.vectorstock.com/i/1000x1000/23/60/pixel-8bit-game-background-with-ground-and-vector-14922360.jpg");
@@ -21,16 +22,26 @@ body {
 }
 #input-box{
   font-family: 'Gloria Hallelujah', cursive;
+  border-radius: 15px;
+  background-color: rgba(222,180,180,.8)
 }
 #submit-button {
   font-family: 'Gloria Hallelujah', cursive;
+  border-radius: 15px;
+  background-color: rgba(0,190,190,.8)
 }
 #feedButton {
   font-family: 'Gloria Hallelujah', cursive;
+  border-radius: 15px;
+  background-color: rgba(0,220,138,.8)
 }
 #playButton {
   font-family: 'Gloria Hallelujah', cursive;
+  border-radius: 15px;
+  background-color: rgba(0,220,138,.8)
 }
 #lightButton {
   font-family: 'Gloria Hallelujah', cursive;
+  border-radius: 15px;
+  background-color: rgba(0,220,138,.8)
 }
