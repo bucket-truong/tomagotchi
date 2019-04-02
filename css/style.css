@@ -1,0 +1,36 @@
+#nameButton {
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 91%;
+  margin: 5.5px 4px;
+}
+#interactButtons {
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: : 0%;
+  right: 0%;
+  margin: 37px 10px;
+  margin-left: 50px;
+}
+body {
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/23/60/pixel-8bit-game-background-with-ground-and-vector-14922360.jpg");
+  background-size: 380px 400px;
+}
+#input-box{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+#submit-button {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+#feedButton {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+#playButton {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+#lightButton {
+  font-family: 'Gloria Hallelujah', cursive;
+}
