@@ -8,7 +8,6 @@ class Tomagotchi {
   }
 }
 
-
 $(document).ready(() => {
 
   let timePassing;
@@ -17,6 +16,15 @@ $(document).ready(() => {
   const secondsGoUp = () => {
       seconds += 1;
       $('#time').text("Time " + seconds)
+      if (seconds % 4 == 0) {
+        $("#babyMario").animate({left:"500px"}, 2000)
+                       .animate({left:"-1px"}, 1000);
+      }
+      if (seconds % 4 == 0) {
+        $("#bigMario").animate({left:"500px"}, 2000)
+                      .animate({left:"-1px"}, 1000)
+      }
+
 
 
       if(startTamogotchi != undefined) {
@@ -34,6 +42,7 @@ $(document).ready(() => {
 
       }
     }
+
     if(seconds % 5 == 0) {
       startTamogotchi.hunger += 1
     }
