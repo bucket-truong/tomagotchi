@@ -44,11 +44,15 @@ div, body{
 }
 
 #headerName {
-	text-align:center;
-	position:relative;
-	top:70px;
+  height: 60px;
+  width: 90px;
+	text-align: center;
+	position: fixed;
+	top: 70px;
+  left: 500px;
   font-family: 'Gloria Hallelujah';
-  font-size: 60px;
+  font-size: 80px;
+  bottom: 300px;
 }
 
 #time {
@@ -66,7 +70,7 @@ div, body{
 #interactButtons {
   text-align: center;
   position: fixed;
-  bottom: 460px;
+  bottom: 350px;
   width: 100%;
   left: : 0%;
   right: 0%;
@@ -77,7 +81,7 @@ div, body{
   font-family: 'Gloria Hallelujah', cursive;
   border-radius: 15px;
   position: fixed;
-  bottom: 460px;
+  bottom: 350px;
   right: 600px;
 }
 #feedButton, #playButton, #lightButton{
